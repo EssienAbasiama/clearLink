@@ -1,5 +1,5 @@
 .app__faqs {
-  padding: 4rem 125px;
+  padding: 4rem 97px;
   display: flex;
   justify-content: space-between;
 }
@@ -7,6 +7,7 @@
 .faqs__txt {
   /* width: 80%; */
   line-height: 2;
+  color: #667085;
 }
 
 .faqs__header {
@@ -40,6 +41,7 @@
 .faqs__box h3 {
   font-size: medium;
   line-height: 1.5;
+  font-size: 16px;
 }
 
 .faqs__one {
@@ -58,14 +60,19 @@
 }
 
 .item {
-  background: gray;
+  background: #d7d7d7;
   margin: 0.5rem 0 1rem;
   padding: 20px;
   display: flex;
   align-items: flex-start;
   border-radius: 10px;
   gap: 1rem;
-  transition: all .1s cubic-bezier(1, 0, 1, 0);
+  transition: all 0.1s cubic-bezier(1, 0, 1, 0);
+}
+
+.item h3 {
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .item p {
@@ -74,7 +81,7 @@
   line-height: 1.5;
 }
 
-.item img{
+.item img {
   cursor: pointer;
 }
 

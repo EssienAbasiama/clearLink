@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 3rem;
-  padding-left: 125px;
+  padding-left: 97px;
   padding-top: 4rem;
   padding-bottom: 4rem;
   width: 100%;
@@ -32,25 +32,27 @@
   margin-top: 2.5rem;
 }
 
-.cta__btn{
-    display: flex;
-    gap: 1rem;
+.cta__btn {
+  display: flex;
+  gap: 1rem;
 }
 
 .cta__btn button {
   height: 52px;
   padding: 14px, 24px, 14px, 24px;
   border-radius: 30px;
+  font-weight: 600;
 }
 
 .btn_two {
   width: 195px;
-  background-color: #175CD3;
+  background-color: #175cd3;
+  color: white;
 }
 
 .btn_one {
   width: 144px;
-  border: 2px solid #175CD3;
+  border: 2px solid #175cd3;
   background: transparent;
 }
 

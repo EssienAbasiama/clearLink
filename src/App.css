@@ -12,3 +12,12 @@
   margin: 0;
   list-style: none;
 }
+
+.section__padding {
+  padding: 4rem 97px;
+}
+
+button {
+  border: 0;
+  /* box-shadow: none; */
+}
